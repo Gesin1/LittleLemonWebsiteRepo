@@ -1,30 +1,23 @@
-import Logo from "../img/Logo .svg";
-
+import HeroImg from "../img/HeroImg.jpg";
 const Header = () => {
   return (
     <>
       <header>
         <div>
-          <img src={Logo} alt="little lemon" />
-          <nav>
-            <ul>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                <a href="#">Reserved</a>
-              </li>
-              <li>
-                <a href="#">Order online</a>
-              </li>
-              <li>
-                <a href="#">Login</a>
-              </li>
-            </ul>
-          </nav>
+          <div>
+            <h1>Little Lemon</h1>
+            <h3>Chicago</h3>
+          </div>
+          <div>
+            <p>
+              We are a family owned Mediterranean restaurant, focused on
+              transition recipe served with a modern twist
+            </p>
+          </div>
+          <button>Reserve a Table</button>
+        </div>
+        <div>
+          <img src={HeroImg} alt="Grilled salad" width="200px" />
         </div>
       </header>
     </>
